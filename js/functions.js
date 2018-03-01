@@ -17,7 +17,7 @@ $(function() {
         event.preventDefault();
     });
     $('.carousel').carousel({
-      interval: 4000
+      interval: 2500
     });
 
     function close_accordion_section_left() {
