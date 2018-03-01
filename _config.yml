@@ -1,0 +1,66 @@
+# --------------
+# -- Settings --
+# --------------
+
+# Ignore this. This is only if you're hosting this in a sub-folder.
+# If you're using GitHub pages, they automatically override this with the right value.
+baseurl: ""
+
+# If you're using GitHub pages without a custom domain, this is "https://[github username].github.io"
+# If you're using GitHub pages with a custom domain, this is "http://[your domain]" (or https if you're using SSL)
+url: "https://battleroyale.ca"
+
+# The ability to use custom themes.
+style:
+  theme: "original"
+
+# Event information.
+event:
+  # Frequently asked questions.
+  faq_left:
+    - question: "> What is BattleRoyale?"
+      answer: >
+        Battle Royale is Ottawa's largest 24-hour gaming competition, attracting gamers from all over the city! In past years, Battle Royale (now in its 11th year) has been a huge success, with over 100 competitors and all profits after the event donated to CHEO. Battle Royale will be running for 24-hours straight, with each tournament spaced out throughout the day (and night). All in all, Battle Royale is a unique opportunity to meet and socialize with other people, all while having an awesome time gaming.
+    - question: "> Who can participate in Battle Royale?"
+      answer: >
+        We're glad you asked! Absolutely anyone over 12 years of age can participate in Battle Royale. Many students from uOttawa, Carleton University, and Algonquin College attend, so it's a great opportunity to socialize with them. Anyone under 18 years old will require permission from a parent or guardian in order to participate.
+
+    - question: "> What should I bring?"
+      answer: >
+        You'll need your rig, accessories & games! You will be limited to 2 powered devices. You will also need to bring an ethernet cable of approximately 6 feet in length.
+    - question: "> Do I have to stay at Battle Royale for 24 hours straight?"
+      answer: >
+        Of course not! Once all of your games are done, you are free to go, but since Battle Royale is all about fun and socializing, we strongly recommend you stay and meet new people! However, DO NOT skip any of your games! If you do, you will be automatically forfeited and disqualified from your tournament. (And you DON'T want that)
+    - question: "> Can I return my ticket or give it to someone else?"
+      answer: >
+       All sales are final, meaning we do not offer refunds for tickets. However, tickets are transferable, meaning that you can give your ticket to someone else.  Please note however, that if a tournament doesn't receive enough competitors, it will be cancelled, with no ticket refund. You can prevent this by inviting your friends to play in that tournament!
+  faq_right:
+    - question: "> What happens when I get there?"
+      answer: >
+        Once you enter Battle Royale, you'll be almost instantly immersed in the vibrant atmosphere. We ask that you make your way to the registration desk, where you'll be able to sign in and hand in your waiver form. After that you'll then make your way to your designated seat. Our volunteers will always be around, so feel free to ask them if you have any questions or if you need help.
+    - question: "> Where can I park at the event?"
+      answer: >
+       There will be free parking over the weekend in Lots 8, 9 and 12 at Algonquin College.
+    - question: "> What's the difference between a major and minor tournament?"
+      answer: >
+       Major tournaments are the games at Battle Royale that are the most popular. This year, CS GO will be a major tournament. Every tournament that isn't a major tournament will be a minor tournament. Major tournaments are obviously expected to have more competitors, so the competition will be higher. (But also more epic) Because of this, prizes for major tournaments will be substantially better and worth more money.
+    - question: "> Is it possible to volunteer at the event?"
+      answer: >
+       Yep!
+    - question: "> What happens if I miss my game or it overlaps with another?"
+      answer: >
+        We do our best to avoid scheduling conflicts however should one arise the major tournament will always take priorty. This means you may need to forefit from your minor tournament, though we'll do our best to prevent this!
+
+# ----------------------------------------------------
+# -- Ignore this unless you know what you're doing. --
+# ----------------------------------------------------
+
+markdown: kramdown
+exclude:
+ - node_modules
+ - gulpfile.js
+ - Gemfile
+ - Gemfile.lock
+ - package.json
+ - README.md
+ - CNAME

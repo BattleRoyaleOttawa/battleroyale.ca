@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+
+  <body{% if page.custom_class %} class="{{ page.custom_class }}"{% endif %}>
+
+    {{ content }}
+
+    <section class="footer">
+      <div class="container text-center">
+        <h1>{{ site.event.name }}</h1>
+        <h3><a href="https://github.com/battleroyaleottawa/battleroyale.ca">Made with &hearts; by the Organizing Team</a>.</h3>
+      </div>
+    </section>
+
+    <!-- jQuery -->
+    <script src="{{ '/js/jquery-1.11.3.js' | prepend: site.baseurl | prepend: site.url }}"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="{{ '/js/bootstrap.min.js' | prepend: site.baseurl | prepend: site.url }}"></script>
+
+    <!-- Scrolling Nav/FAQ/MailChimp JavaScript -->
+    <script src="{{ '/js/jquery.easing.min.js' | prepend: site.baseurl | prepend: site.url }}"></script>
+    <script src="{{ '/js/functions.js' | prepend: site.baseurl | prepend: site.url }}"></script>
+
+  </body>
+</html>
