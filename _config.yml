@@ -16,6 +16,8 @@ style:
 
 # Event information.
 event:
+  name:        "Battle Royale XI"
+  description: "24 Hour LAN Party!"
   # Frequently asked questions.
   faq_left:
     - question: "> What is BattleRoyale?"
