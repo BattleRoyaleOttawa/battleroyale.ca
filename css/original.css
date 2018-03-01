@@ -184,6 +184,13 @@ div.collapse.navbar-collapse.navbar-ex1-collapse{
   max-width: 150px;
 }
 
+#tickets .btn {
+  min-height: 100px;
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 100px;
+}
+
 #patrons .community-partners img {
   max-width: 400px;
 }
