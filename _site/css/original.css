@@ -3,17 +3,10 @@
 * http://bit.ly/1ywfhq7
 */
 
-/* Open Sans Google Font */
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:600,700);
-
-
-/* Montserrat Google Font */
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
-
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,700);
+@import url('https://fonts.googleapis.com/css?family=Bungee+Inline|Montserrat|Open+Sans|Raleway|Reem+Kufi|Russo+One');
 
 * {
-  font-family: 'Open Sans';
+  font-family: 'Reem Kufi', sans-serif;
   font-weight: 600;
   box-sizing: border-box;
   margin: 0;
@@ -29,13 +22,22 @@ section:not(.hero):not(.footer) {
     overflow-x:hidden;
     background-color: #f6f7eb;
     color: #8B181D;
-    padding: 50px 0px 50px;
+    padding: 30px 0px 20px;
 }
 
 h1 {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
+.intro-title {
+    font-family: 'Bungee Inline', cursive;
+    font-size: 500%;
+}
+
+.title {
+    font-family: 'Bungee Inline', cursive;
+    font-size: 400%;
+}
 
 section:not(#faq) p {
     color: #084259;
@@ -176,7 +178,7 @@ div.collapse.navbar-collapse.navbar-ex1-collapse{
 #about {
     border-width: 15px 0;
     background-color: #f6f7eb;
-    padding-top: 100px;
+    padding-top: 40px;
     position: relative;
 }
 
