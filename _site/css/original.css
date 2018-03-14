@@ -3,10 +3,10 @@
 * http://bit.ly/1ywfhq7
 */
 
-@import url('https://fonts.googleapis.com/css?family=Bungee+Inline|Montserrat|Open+Sans|Raleway|Reem+Kufi|Russo+One');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Bungee+Inline|Montserrat|Open+Sans|Raleway|Reem+Kufi|Russo+One');
 
 * {
-  font-family: 'Reem Kufi', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-weight: 600;
   box-sizing: border-box;
   margin: 0;
@@ -43,7 +43,7 @@ h1 {
 section:not(#faq) p {
     color: #084259;
     font-weight: 600;
-    font-size: 22px;
+    font-size: 24px;
     line-height: 1.6em;
     letter-spacing: -.3px;
 }
@@ -188,6 +188,11 @@ div.collapse.navbar-collapse.navbar-ex1-collapse{
     border-bottom: 20px solid #8B181D;
 }
 
+.carousel-inner {
+    border-radius: 20px 0px 20px 0px;
+    border: 4px solid #8B181D;
+}
+
 #games .game-logo {
   max-width: 150px;
 }
@@ -226,7 +231,6 @@ div.collapse.navbar-collapse.navbar-ex1-collapse{
 #patrons .logo-carleton {
   max-width: 350px !important;
 }
-
 
 /*
 * FAQ Section
