@@ -23,7 +23,6 @@ section:not(.hero):not(.footer) {
     background-color: #f6f7eb;
     color: #8B181D;
     padding: 0px 0px 25px;
-    border-bottom: 15px solid #8B181D;
 }
 
 h1 {
