@@ -233,6 +233,10 @@ div.collapse.navbar-collapse.navbar-ex1-collapse{
   max-width: 350px !important;
 }
 
+#patrons .logo-algonquin {
+  max-width: 300px !important;
+}
+
 /*
 * FAQ Section
 */
