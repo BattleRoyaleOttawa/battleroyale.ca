@@ -10,6 +10,9 @@ baseurl: ""
 # If you're using GitHub pages with a custom domain, this is "http://[your domain]" (or https if you're using SSL)
 url: "https://battleroyaleottawa.github.io/battleroyale.ca/"
 
+# Comment out the url above and uncomment the one below if running locally
+# url: "http://localhost:4000"
+
 # The ability to use custom themes.
 style:
   theme: "original"
