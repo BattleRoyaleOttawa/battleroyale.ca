@@ -3,7 +3,7 @@
 * http://bit.ly/1ywfhq7
 */
 
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Bungee+Inline|Montserrat|Open+Sans|Raleway|Reem+Kufi|Russo+One');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Montserrat|Open+Sans|Raleway|Reem+Kufi|Russo+One');
 
 * {
   font-family: 'Josefin Sans', sans-serif;
@@ -30,12 +30,12 @@ h1 {
 }
 
 .intro-title {
-    font-family: 'Bungee Inline', cursive;
+    font-family: 'Kenyan', cursive;
     font-size: 500%;
 }
 
 .title {
-    font-family: 'Bungee Inline', cursive;
+    font-family: 'Kenyan', cursive;
     font-size: 400%;
 }
 
