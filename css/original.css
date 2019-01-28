@@ -39,6 +39,12 @@ h1 {
     font-size: 400%;
 }
 
+.subheading {
+    font-family: 'Russo One';
+    margin-bottom: 0px; 
+    font-size: 220%;
+}
+
 section:not(#faq) p {
     color: #084259;
     font-weight: 600;
@@ -48,7 +54,7 @@ section:not(#faq) p {
 }
 
 .texture-background {
-    background-image: url("https://png.pngtree.com/thumb_back/fw800/back_pic/04/16/63/0358257bd48f668.jpg");
+    /* background-image: url("https://png.pngtree.com/thumb_back/fw800/back_pic/04/16/63/0358257bd48f668.jpg"); */
 }
 
 .navbar .navbar-brand{
