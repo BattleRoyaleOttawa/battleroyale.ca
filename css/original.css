@@ -21,7 +21,7 @@ body {
 section:not(.hero):not(.footer) {
     overflow-x:hidden;
     background-color: #f6f7eb;
-    color: #8B181D;
+    color: #24225B;
     padding: 0px 0px 25px;
 }
 
