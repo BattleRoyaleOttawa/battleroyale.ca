@@ -40,9 +40,10 @@ h1 {
 }
 
 .subheading {
-    font-family: 'Russo One';
+    font-family: 'Kenyan';
     margin-bottom: 0px; 
-    font-size: 220%;
+    font-size: 220% !important;
+    text-transform: uppercase;
 }
 
 section:not(#faq) p {
