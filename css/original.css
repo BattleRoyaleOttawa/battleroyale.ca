@@ -98,17 +98,16 @@ div.collapse.navbar-collapse.navbar-ex1-collapse{
 .hero::before{
     content: "";
     position: fixed;
-    top: -5%;
-    left: -5%;
+    top: 25%;
+    left: 25%;
     right: 0;
     z-index: -1;
-
     display: block;
-    background-image: url("../images/background.png");
-    background-size:cover;
-    width: 110%;
-    height: 110%;
-
+    background-image: url("../images/logo.png");
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 50%;
 }
 
 
