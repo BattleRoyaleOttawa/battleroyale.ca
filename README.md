@@ -24,7 +24,7 @@ See Basecamp for the Style Guide
 
 ## Option 1: Docker (recommended)
 
-[Docker](https://www.docker.com) can be installed here. Once it's installed, just run `docker-compose up` in your terminal while inside the folder.
+[Docker](https://www.docker.com) can be installed here. Once it's installed, just run `docker-compose up` in your terminal while inside the folder. One caveat is if you make any changes, you'll have to restart the Docker container to see the changes update. To restart it, just terminate the server, run `docker-compose down` and then `docker-compose up`.
 
 ## Option 2: Manual
 
